@@ -1,0 +1,10 @@
+minit=input("How much minit is the course?:\n")
+#convert minit to int
+int_minut=(int(minit))
+#calculate the hours
+hours=(int_minut//60)
+minutes=(int_minut%60)
+#convert both to str
+str_hours=(str(hours))
+str_minutes=(str(minutes))
+print("This course is "+str_hours+ " hours and "+ str_minutes+" minitues long ")
