@@ -1,0 +1,5 @@
+# YOUTUBE-channel-name-generator
+print("Welcome to the YOUTUBE Channel Name Generator:")
+nick_name=input("What is your nickname?\n")
+Channel_subject=input("What is your Channel about?\n")
+print("You could name your Channel " + "(" + Channel_subject +" with "+ nick_name +")")
