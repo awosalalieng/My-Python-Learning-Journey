@@ -1,0 +1,10 @@
+length=input("Enter the length:\n")
+#convert length to int
+int_length=(int(length))
+width=input("Enter the width:\n")
+#conver width to int
+int_width=(int(width))
+total=(int_length*int_width)
+#convert total to str
+total_str=(str(total))
+print("The total is: " +total_str)2
